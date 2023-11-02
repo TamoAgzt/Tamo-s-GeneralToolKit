@@ -1,0 +1,25 @@
+ion-item {
+  width: 60%;
+  margin: 15px auto;
+  border-radius: 0 15px 5px 5px;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  margin-top: 415px;
+  border-radius: 0 15px 5px 5px;
+}
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  margin: 15px auto 200px auto;
+}
+
+canvas {
+  position: absolute;
+  border: 1px var(--light-blue) solid;
+}

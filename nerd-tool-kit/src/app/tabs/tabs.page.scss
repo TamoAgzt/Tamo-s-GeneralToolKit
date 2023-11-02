@@ -1,0 +1,17 @@
+svg {
+  max-width: 38px;
+  max-height: 38px;
+  fill: var(--light-blue);
+}
+
+ion-label {
+  color: var(--light-blue);
+}
+ion-tab-button:hover {
+  svg {
+    fill: var(--orange);
+  }
+  ion-label {
+    color: var(--orange);
+  }
+}

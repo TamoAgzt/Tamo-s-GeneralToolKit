@@ -1,0 +1,15 @@
+.soundboard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 440px;
+}
+
+.sound-item {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  margin: 5px;
+  padding: 5px;
+}

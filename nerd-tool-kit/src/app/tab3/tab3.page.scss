@@ -1,0 +1,24 @@
+.news-item {
+  width: 100%;
+  max-height: 352px;
+  height: auto;
+  border-radius: 12px;
+  background-color: #00000025;
+  margin: 1px 0;
+
+  border-radius: 0 15px 5px 5px;
+}
+
+h2 {
+  padding: 4px 15px;
+}
+
+p {
+  padding: 8px 15px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .news-item {
+    background-color: #ffffff25;
+  }
+}

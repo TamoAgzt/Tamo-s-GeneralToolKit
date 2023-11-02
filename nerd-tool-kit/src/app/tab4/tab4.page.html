@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Chance </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Chance</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <!-- Flip coin, roll dice, DUEL! coin flip 2 6 8 10 12 20 100 -->
+
+  <ion-item>
+    <ion-select
+      label="Select your fate!"
+      placeholder="Nothing selected"
+      [(ngModel)]="selectedValue"
+    >
+      <ion-select-option value="2">Coin flip</ion-select-option>
+      <ion-select-option value="4">D4</ion-select-option>
+      <ion-select-option value="6">D6</ion-select-option>
+      <ion-select-option value="8">D8</ion-select-option>
+      <ion-select-option value="10">D10</ion-select-option>
+      <ion-select-option value="12">D12</ion-select-option>
+      <ion-select-option value="20">D20</ion-select-option>
+      <ion-select-option value="100">D100</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <button (click)="roll()">Test your luck!</button>
+  <h2>You rolled a {{result}}</h2>
+</ion-content>

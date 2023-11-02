@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Soundboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Soundboard</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="soundboard">
+    <div *ngFor="let sound of sounds">
+      <button class="sound-item" (click)="playSound(sound.Sound)">
+        <img class="sound-thumbnail" src="{{sound.Image}}" />
+      </button>
+    </div>
+  </div>
+</ion-content>

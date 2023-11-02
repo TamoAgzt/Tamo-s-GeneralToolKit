@@ -1,0 +1,7 @@
+{
+  "name": "NerdToolKit",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

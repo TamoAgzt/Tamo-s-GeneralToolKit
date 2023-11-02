@@ -1,0 +1,23 @@
+ion-item {
+  width: 60%;
+  margin: 15px auto;
+  border-radius: 0 15px 5px 5px;
+}
+
+h2,
+button {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+button {
+  margin: 15px auto;
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  font-size: larger;
+  font-weight: bolder;
+  border-radius: 0 15px 5px 5px;
+  background-color: var(--dark-red);
+}

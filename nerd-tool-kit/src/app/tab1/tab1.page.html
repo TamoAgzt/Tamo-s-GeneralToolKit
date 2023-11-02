@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> CosNav </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">CosNav</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-item>
+    <ion-select
+      label="Select your playing field!"
+      placeholder="Nothing selected"
+      [(ngModel)]="selectedValue"
+      (ionChange)="onSelectionChange()"
+    >
+      <ion-select-option value="home">Home</ion-select-option>
+      <ion-select-option value="school">Vista</ion-select-option>
+      <ion-select-option value="comiccon">ComicCon Inside</ion-select-option>
+      <ion-select-option value="comicconparking"
+        >ComicCon Area</ion-select-option
+      >
+    </ion-select>
+  </ion-item>
+
+  <div class="canvas-container">
+    <canvas #customMapCanvas width="400" height="400"></canvas>
+    <canvas #pointsOfInterestCanvas width="400" height="400"></canvas>
+    <canvas #waypointCanvas width="400" height="400"></canvas>
+    <canvas #currentPositionCanvas width="400" height="400"></canvas>
+    <button (click)="setWaypoint()">Set waypoint</button>
+  </div>
+</ion-content>
