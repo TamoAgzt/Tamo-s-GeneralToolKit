@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'eu.torngems.nerdtoolkit',
-  appName: 'NerdToolKit',
+  appId: 'eu.torngems.generaltoolkit',
+  appName: "Tamo's GeneralToolKit",
   webDir: 'www',
   server: {
     androidScheme: 'https',

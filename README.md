@@ -1,36 +1,48 @@
-# NerdToolKit_Web
+# GeneralToolKit
 
-## Sci-Fi Sound Effects Board
+## Pin protected
 
-- Build a soundboard app with a collection of iconic sci-fi sound effects.
-- Users can trigger sounds like spaceship engines, laser blasts, or futuristic gadget noises.
-- Enhance the experience by integrating motion sensors to trigger sounds with hand movements.
-
-## Cosmic Navigation
-
-- Develop a GPS app with a futuristic twist.
-- Use a space-themed interface with constellation-based navigation.
-- Instead of regular map views, show interstellar routes and use sci-fi terminology for locations.
-- Virtual Comic Con Guide:
-
-- Build an app that serves as a guide for Comic Con events.
-- Use augmented reality to display event schedules, booth locations, and exclusive merchandise.
-- Include a virtual map with 3D representations of the convention center and exhibitor booths.
+- Open app using pin
 
 ---
 
-## Space Newsfeed
+## Fingerprint protected
 
-- Develop a news aggregator app that curates sci-fi and space-related news.
-- Present articles in a holographic 3D format with interactive visuals.
-- Allow users to customize their feeds based on their favorite sci-fi franchises.
+- Open app using fingerprint
 
 ---
+
+## Custom notifications
+
+- Set notification titles
+- Set notification content
+- Set the time notifications should be sent
+
+---
+
+## Notes
+
+- Take notes
+- Add title and content
+- Set tags
+
+---
+
+## Widget support
+
+- Notes widget
+- Notification widget
+
+---
+
+## Search function
+
+- Based on tags
+- Based on titles
 
 ## Radio
 
-- Have songs I like
-- Spotify playlists
+- Spotify playlists I like
 - My songs 😊
 
 ---
