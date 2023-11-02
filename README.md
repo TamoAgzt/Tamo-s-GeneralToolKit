@@ -37,6 +37,8 @@
 
 ## Color palette
 
+Using this for color conversion: https://convertingcolors.com/
+
 ### Orange
 
 0xFFFF9205
@@ -59,4 +61,10 @@ rgba(143,12,11,255)
 
 0xFF00FFEB
 #00FFEB
-rgba(0,255,235)
+rgba(0,255,235,255)
+
+### Deep Purple
+
+0xFF1A0022
+#1a0022
+rgba(26,0,34,255)

@@ -54,10 +54,29 @@
 }
 
 :root {
-  --orange: #ff9205;
-  --light-red: #f60200;
-  --dark-red: #8f0c0b;
-  --light-blue: #00ffeb;
+  --orange100: #ff9205;
+  --light-red100: #f60200;
+  --dark-red100: #8f0c0b;
+  --light-blue100: #00ffeb;
+  --deep-purple100: #1a0022;
+
+  --orange90: hsl(34, 100%, 51%, 0.9);
+  --light-red90: hsla(0, 100%, 48%, 0.9);
+  --dark-red90: hsl(0, 86%, 30%, 0.9);
+  --light-blue90: hsl(175, 100%, 50%, 0.9);
+  --deep-purple90: hsl(286, 100%, 7%, 0.9);
+
+  --orange70: hsl(34, 100%, 51%, 0.7);
+  --light-red70: hsla(0, 100%, 48%, 0.7);
+  --dark-red70: hsl(0, 86%, 30%, 0.7);
+  --light-blue70: hsl(175, 100%, 50%, 0.7);
+  --deep-purple70: hsl(286, 100%, 7%, 0.7);
+
+  --orange50: hsl(34, 100%, 51%, 0.5);
+  --light-red50: hsla(0, 100%, 48%, 0.5);
+  --dark-red50: hsl(0, 86%, 30%, 0.5);
+  --light-blue50: hsl(175, 100%, 50%, 0.5);
+  --deep-purple50: hsl(286, 100%, 7%, 0.5);
 }
 
 ion-header {
